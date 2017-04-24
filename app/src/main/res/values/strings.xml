@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Painting</string>
+
+    <string name="action_clear">Clear</string>
+
+    <string name="button_line">Paint line</string>
+    <string name="button_rect">Paint rect</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_clear"
+        android:showAsAction="collapseActionView"
+        android:title="@string/action_clear"/>
+
+    <item
+        android:id="@+id/action_line"
+        android:showAsAction="collapseActionView"
+        android:title="Draw Line" />
+
+    <item
+        android:id="@+id/action_rect"
+        android:showAsAction="collapseActionView"
+        android:title="Draw Rectangle"/>
+    <item
+        android:id="@+id/action_circle"
+        android:showAsAction="collapseActionView"
+        android:title="Draw Circle"/>
+
+</menu>

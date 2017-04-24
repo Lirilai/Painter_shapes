@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.dimasokol.learning.painting.MainActivity">
+
+    <ru.dimasokol.learning.painting.PaintingView
+        android:id="@+id/painting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/buttons"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="2"-->
+        <!--android:layout_alignParentBottom="true">-->
+    <!--<Button-->
+        <!--android:id="@+id/button_line"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/button_line"-->
+         <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_rect"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/button_rect"-->
+         <!--/>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
